@@ -6,3 +6,7 @@ set -eou pipefail
 # deep somewhere. See https://github.com/conda-forge/qgis-feedstock/issues/263
 # for upstream discussion
 #ln -s /srv/conda/envs/notebook/lib/libgsl.so.27 /srv/conda/envs/notebook/lib/libgsl.so.25
+
+# webpdf
+export PLAYWRIGHT_BROWSERS_PATH=${CONDA_DIR}
+playwright install chromium
