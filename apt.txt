@@ -2,12 +2,20 @@
 curl
 emacs
 less
+man
+man-db
+manpages-posix
+manpages-dev
+manpages-posix-dev
 rsync
+screen
 vim
 wget
+zip
 
 # Regular build tools for compiling common stuff
 build-essential
+gfortran
 
 # Dependencies for nbconvert
 texlive-xetex
