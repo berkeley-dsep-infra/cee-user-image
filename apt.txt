@@ -44,3 +44,17 @@ libxfixes3
 libxrandr2
 libgbm1
 libasound2
+
+## jupyter-remote-desktop-proxy recommendations
+dbus-x11
+xfce4
+xfce4-panel
+xfce4-session
+xfce4-settings
+xorg
+xubuntu-icon-theme
+tigervnc-standalone-server
+
+## Useful X11 packages
+firefox
+chromium-browser
